@@ -1,0 +1,68 @@
+
+/* Add font files for Jaro */
+@font-face {
+  font-family: 'Jaro';
+  src: url('fonts/jaro.woff2') format('woff2'),
+       url('fonts/jaro.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Add font files for ABeeZee */
+@font-face {
+  font-family: 'ABeeZee';
+  src: url('fonts/abeezee.woff2') format('woff2'),
+       url('fonts/abeezee.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+:root {
+  --font-family-jaro: 'Jaro', sans-serif;
+  --font-family-abeezee: 'ABeeZee', sans-serif;
+}
+
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.text-2 {
+  position: absolute;
+  left: 36px;
+  top: 16px;
+  width: 426px;
+  height: 80px;
+  font-size: 64px;
+  font-family: var(--font-family-jaro);
+  font-weight: normal;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+.text-3 {
+  position: absolute;
+  left: 36px;
+  top: 96px;
+  width: 176px;
+  height: 19px;
+  font-size: 16px;
+  font-family: var(--font-family-abeezee);
+  font-weight: normal;
+  text-align: left;
+  color: rgba(141, 141, 141, 1);
+}
+
+.frame-1-1 {
+  position: absolute;
+  left: -407px;
+  top: -345px;
+  width: 824px;
+  height: 527px;
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 200, 255, 1);
+}
